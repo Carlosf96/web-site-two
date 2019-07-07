@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
+=======
+import classes from './Contact.module.css';
+import map from '../assets/networkTwo.png';
+import location from '../assets/maps-and-flags.png';
+import phone from '../assets/phone-receiver.png';
+import mail from '../assets/close-envelope.png';
+
+>>>>>>> 29d6ea196bb7a99ab722048686f78389a44be7da
 
 export default class Contact extends Component {
   render() {
     return (
+<<<<<<< HEAD
       <div style={{ height: '70vh' }} className='container valign-wrapper'>
         <div className='row white'>
           <div className='col s12 center-align'>
@@ -112,6 +122,30 @@ export default class Contact extends Component {
             </div>
           </div>
         </div>
+=======
+      <div style={{marginTop: '-2%'}}>
+        <h1 className={classes.Tittle}>Contact us</h1>
+        <div className={classes.Main}>
+          <div className={classes.Map}>
+            <img src={map} alt='map'/>
+          </div>
+          <div className={classes.PartTwo}>
+            <div className={classes.Sentences}>
+              <img src={location} alt='location icon'/>
+              <p><strong>Location:</strong> Dallas, Tx.</p>
+            </div>
+            <div className={classes.Sentences}>
+              <img src={phone} alt='location icon'/>
+              <p><strong>Phone:</strong> coming soon...</p>
+            </div>
+            <div className={classes.Sentences}>
+              <img src={mail} alt='location icon'/>
+              <p><strong>Email:</strong> info@vydr.io</p>
+            </div>
+          </div>
+        </div>
+
+>>>>>>> 29d6ea196bb7a99ab722048686f78389a44be7da
       </div>
     );
   }
